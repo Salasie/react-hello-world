@@ -101,5 +101,3 @@ var config = {
 
 npm install --save react react-dom // --save lo añade automaticamente
 
-
-12.- 
