@@ -4,7 +4,7 @@
   "description": "Hello world only react",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w test/helper/browser.js src/*/*.spec.js --require babel-register",
+    "test": "mocha test/helper/browser.js src/*/*.spec.js --require babel-register",
     "dev:hot": "webpack-dev-server --hot --port 8082 --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "start": "webpack-dev-server --port 8081 --inline --content-base ./src"
   },
