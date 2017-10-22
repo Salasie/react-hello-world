@@ -1,10 +1,16 @@
 import React from 'react';
 import {render} from 'react-dom';
+import Label from './components/Label.jsx';
+
 
 class App extends React.Component {
+  
   render () {
-    return (<div> Hello React!</div>);
+    return (<Label/>);
   }
 }
 
-render(<App/>, document.getElementById('app'));
+if(typeof window !== 'undefined') {
+  render(<App/>, document.getElementById('app'));
+}
+
